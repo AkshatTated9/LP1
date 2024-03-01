@@ -4,7 +4,11 @@ using namespace std;
 
 class Pass1
 {
-    
+    struct MOT
+    {
+        string opCode;
+        int opNo, opLen;
+    };
 
     struct POT
     {
